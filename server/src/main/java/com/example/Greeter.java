@@ -7,7 +7,7 @@ package com.example;
   /**
    * This is a constructor.
    */
-  public Greeter() {
+  public class Greeter() {
 
   }
 
