@@ -4,7 +4,6 @@
     stages {
         stage('Build'){
             steps{
-            set M2_HOME='C:\Users\Work\Desktop\apache-maven-3.6.0-bin\apache-maven-3.6.0'
                 bat 'mvn clean package'
                 }
             }    
