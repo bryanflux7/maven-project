@@ -2,7 +2,10 @@ pipeline {
     agent any
     stages{
         stage('Build'){
-         
+          steps {
+               echo 'building...'
+         }
+                  
             post {
                 success {
                     echo 'Now Archiving...'
